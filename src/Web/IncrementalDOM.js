@@ -1,6 +1,10 @@
 "use strict";
 
-var IDOM = require("incremental-dom");
+try {
+  var IDOM = require("incremental-dom");
+} catch (ex) {
+  var IDOM = IncrementalDOM;
+}
 
 exports.foreignNull = null;
 
