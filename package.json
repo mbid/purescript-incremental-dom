@@ -1,0 +1,7 @@
+{
+  "name": "purescript-incremental-dom",
+  "files": [],
+  "peerDependencies": {
+    "incremental-dom": "^0.5.1"
+  }
+}

@@ -1,0 +1,30 @@
+{ "name": "purescript-incremental-dom",
+  "homepage": "https://github.com/mbid/purescript-incremental-dom",
+  "description": "PureScript bindings for Incremental DOM",
+  "main": "",
+  "keywords": [
+    "purescript",
+    "incremental"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mbid/purescript-incremental-dom.git"
+  },
+  "dependencies": {
+    "purescript-prelude": "^3.0.0",
+    "purescript-console": "^3.0.0",
+    "purescript-tuples": "^4.0.0",
+    "purescript-foreign": "^4.0.0",
+    "purescript-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^3.0.0"
+  }
+}
